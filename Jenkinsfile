@@ -38,7 +38,7 @@ pipeline {
 //          }
         stage('Deploy') {
             steps {
-                sh './jenkins/scripts/deploy.sh'
+                cat './jenkins/scripts/deploy.sh'
             }
         }
     }
